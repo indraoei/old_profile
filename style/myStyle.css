@@ -1,0 +1,219 @@
+.header
+{
+    display: block;
+    text-align: center;
+    background: url(../img/hdr-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+}
+.photo
+{
+    margin: auto;
+    max-width: 200px;
+    height: auto;
+    border: 4px solid black;
+}
+.name
+{
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+}
+.occupation
+{
+    padding-top: 5px;
+    color: cyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+.motto
+{
+    font-style: italic;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.menubar
+{
+    background-color: black;
+    padding: 30px;
+}
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding; 0;
+    overflow: hidden;
+    float: right
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    margin: 1px 3px 1px 3px;
+    text-decoration: None;
+}
+.custom-navbar
+{
+    border-radius: 0px;
+    border: none;
+}
+.custom-navbar .navbar-nav > li > a
+{
+    color: white
+}
+.aboutme-title
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 1px grey
+}
+.aboutme-photo
+{
+    border: 4px solid black;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+.aboutme-data
+{
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: dashed 1px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+}
+@media only screen and (max-device-width: 1024px)
+{
+    .aboutme-photo
+    {
+        float: none;
+        display: block;
+        margin: auto;
+        border: 4px solid black;
+    }
+}
+.myedu
+{
+    background: url(../img/education.jpg) no-repeat;
+    background-size: cover; 
+    float: left;
+    height: 443px;
+}
+.myedu-title
+{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 1px grey
+}
+.myedu-data
+{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-align: left;
+    border-bottom: double 4px;
+    color: black;
+}
+.myskill
+{
+    background: url(../img/skill.jpg) no-repeat center;
+    /* background-size: cover; */
+    float: left;
+    height: 443px;
+    
+}
+.myskill-title
+{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 1px grey
+}
+.myskill-data
+{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-align: left;
+    border-bottom: double 4px;
+    color: black;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 200px auto;
+    padding: 20px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  .popup-content{
+      color: black;
+  }
+  .popup-content a{
+    text-decoration: none;
+    color: black;
+}
+  .popup .close:hover {
+    color: white;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+  .socmed-img{
+      width: 30px;
+      height: 30px;
+  }
+  #line{
+      width: 28px;
+      height: 28px;
+  }
+  .socmed-link{
+      color: black;
+  }
