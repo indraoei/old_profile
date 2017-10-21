@@ -67,9 +67,9 @@ li a {
     border-radius: 0px;
     border: none;
 }
-.custom-navbar .navbar-nav > li > a
-{
-    color: white
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    font-weight: bold;
 }
 .aboutme-title
 {
