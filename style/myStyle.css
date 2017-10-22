@@ -130,8 +130,8 @@ li a {
 }
 .myskill
 {
-    background: url(../img/skill.jpg) no-repeat center;
-    /* background-size: cover; */
+    background: url(../img/skill.jpg) no-repeat;
+    background-size: cover;
     float: left;
     height: 443px;
     
